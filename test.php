@@ -12,8 +12,8 @@ class test extends
 
 	public function index()
 	{
-		echo __METHOD__;
+		return __METHOD__;
 	}
 }
 $obj = new test();
-$obj->index();
+echo $obj->index();
